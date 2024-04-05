@@ -24,6 +24,7 @@ export default function Home() {
                     />
                 </label> 
                 <UsersList users={users} startingLetter={startingLetter} />
+                <button onClick={()=>setNum(num+1)}>Increase</button>
             </section>
     </div>
 );
